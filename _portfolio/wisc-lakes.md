@@ -125,18 +125,18 @@ The results from our model suggest warming across Wisconsin lakes over time and 
 
 **Table 5.** Fixed effect estimates for model assessing the association between open water dates and summer water temperatures.
 
-!["Figure"](/assets/portfolio-images/open_water_days.png")
+!["Figure"](/images/open_water_days.png")
 
 <figure> 
 <div style="text-align: center;"> 
-    <a href="/assets/portfolio-images/open_water_days.png"> <img src="/assets/portfolio-images/open_water_days.png"> </a> 
+    <a href="/images/open_water_days.png"> <img src="/images/open_water_days.png"> </a> 
     <figcaption>Figure 5. Average temperature by season, layers, and lakes across all relative years.</figcaption>
 </div>
 </figure>
 
 <figure> 
 <div style="text-align: center;"> 
-    <img src="/images/portfolio-images/open_water_lakes.png"/> 
+    <a href="/images/open_water_lakes.png"> <img src="/images/open_water_lakes.png"></a> 
     <figcaption>Figure 6. Average temperature by lake, and the number of days till open water from the start of
 the year.</figcaption>
 </div>
