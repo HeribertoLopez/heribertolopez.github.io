@@ -16,7 +16,7 @@ To assess if Wisconsin lake temperatures are warming over time the average lake 
 
 <figure>  
 <div style="text-align: center;">
-    <a href="/images/rel_yr.png"> <img src="/images/rel_yr.png"></a>
+    <a href="/images/relative_yr.png"> <img src="/images/relative_yr.png"></a>
     <figcaption>Figure 1. Average temperature by relative year, layer and lake.</figcaption>
 </div>
 </figure>
@@ -127,7 +127,7 @@ The results from our model suggest warming across Wisconsin lakes over time and 
 
 <figure> 
 <div style="text-align: center;"> 
-    <a href="/images/open_water_days.png"> <img src="/images/open_water_days.png"> </a> 
+    <a href="/images/lake_seasons.png"> <img src="/images/lake_seasons.png"> </a> 
     <figcaption>Figure 5. Average temperature by season, layers, and lakes across all relative years.</figcaption>
 </div>
 </figure>
