@@ -16,7 +16,7 @@ To assess if Wisconsin lake temperatures are warming over time the average lake 
 
 <figure>  
 <div style="text-align: center;">
-    <a href="/images/portfolio-images/rel_yr.png"> <img src="/images/portfolio-images/rel_yr.png"></a>
+    <a href="/assets/portfolio-images/rel_yr.png"> <img src="/assets/portfolio-images/rel_yr.png"></a>
     <figcaption>Figure 1. Average temperature by relative year, layer and lake.</figcaption>
 </div>
 </figure>
@@ -29,7 +29,7 @@ To assess if Wisconsin lake temperatures are warming over time the average lake 
 
 <figure> 
 <div style="text-align: center;">
-    <a href="/images/portfolio-images/yr_seasons.png"> <img src="images/portfolio-images/yr_seasons.png"></a>
+    <a href="/assets/portfolio-images/yr_seasons.png"> <img src="/assets/portfolio-images/yr_seasons.png"></a>
     <figcaption>Figure 2. Average temperature by season and layers across all lakes for the years between 1996-2022.</figcaption>
 </div> 
 </figure>
@@ -42,7 +42,7 @@ To assess if Wisconsin lake temperatures are warming over time the average lake 
 
  <figure> 
  <div style="text-align: center;"> 
-    <a href="/images/portfolio-images/region_yr_layers.png"><img src="images/portfolio-images/region_yr_layers.png"></a>
+    <a href="/assets/portfolio-images/region_yr_layers.png"><img src="/assets/portfolio-images/region_yr_layers.png"></a>
     <figcaption>Figure 3. Average temperature by region, layers, and relative years from 1996 to 2022.</figcaption>
  </div>
  </figure>
@@ -55,7 +55,7 @@ To assess if ice melt dates are associated with summer water temperatures the da
 
 <figure> 
 <div style="text-align: center;"> 
-    <a href="/images/portfolio-images/open_water_days.png"> <img src="/images/portfolio-images/open_water_days.png"></a> 
+    <a href="/assets/portfolio-images/open_water_days.png"> <img src="/assets/portfolio-images/open_water_days.png"></a> 
     <figcaption>Figure 4. Average temperature by the number of days till open water from the start of the year.</figcaption>
 </div>
 </figure>
@@ -128,7 +128,7 @@ The results from our model suggest warming across Wisconsin lakes over time and 
 
 <figure> 
 <div style="text-align: center;"> 
-    <img src="/images/portfolio-images/open_water_days.png"/> 
+    <a href="/assets/portfolio-images/open_water_days.png"> <img src="/assets/portfolio-images/open_water_days.png"> </a> 
     <figcaption>Figure 5. Average temperature by season, layers, and lakes across all relative years.</figcaption>
 </div>
 </figure>
