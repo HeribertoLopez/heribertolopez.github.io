@@ -17,7 +17,7 @@ constituent' giving is affected by email communications. After an increase in em
 # Data 
 
 <figure>
-    <a href="/assets/img/Donor_Poster_1.png"><img src="/assets/img/Donor_Poster_1.png"></a>
+    <a href="/images/Donor_Poster_1.png"><img src="/images/Donor_Poster_1.png"></a>
     <figcaption> </figcaption>
 </figure>
 
@@ -25,7 +25,7 @@ Before begining, we filtered out all constituents who were not alumni of the col
 
 
 <figure>
-    <a href="/assets/img/Donor_Poster_1.png"><img src="/assets/img/Donor_Poster_2.png"></a>
+    <a href="/images/Donor_Poster_1.png"><img src="/images/Donor_Poster_2.png"></a>
      <figcaption> Table 1. Description of the variables that were used. </figcaption>
 </figure>
 
@@ -41,7 +41,7 @@ Using the Kruskal-Wallis test, we found a significant difference in the median g
 
 
 <figure>
-    <a href="/assets/img/Donor_Poster_3.png"><img src="/assets/img/Donor_Poster_3.png"></a>
+    <a href="/images/Donor_Poster_3.png"><img src="/images/Donor_Poster_3.png"></a>
      <figcaption> Figure 1. The skewed distribution of donoation amounts from Alumni. </figcaption>
 </figure>
 
@@ -49,7 +49,7 @@ Using the Kruskal-Wallis test, we found a significant difference in the median g
 
 
 <figure>
-    <a href="/assets/img/Donor_Poster_4.png"><img src="/assets/img/Donor_Poster_4.png"></a>
+    <a href="/images/Donor_Poster_4.png"><img src="/imges/Donor_Poster_4.png"></a>
      <figcaption> Figure 2. A line graph demonstrating the probability that a constituent within a given loyalty segment unsubscribes from the email list. 
      </figcaption>
 </figure> 
@@ -58,7 +58,7 @@ Using the Kruskal-Wallis test, we found a significant difference in the median g
 
 
 <figure>
-    <a href="/assets/img/Donor_Poster_5.png"><img src="/assets/img/Donor_Poster_5.png"></a>
+    <a href="/images/Donor_Poster_5.png"><img src="/images/Donor_Poster_5.png"></a>
      <figcaption> Figure 3. The average donation amount of constituents for each message bracket and leadership segment. 
      </figcaption> 
 </figure> 
