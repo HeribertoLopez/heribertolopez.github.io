@@ -125,6 +125,7 @@ The results from our model suggest warming across Wisconsin lakes over time and 
 
 **Table 5.** Fixed effect estimates for model assessing the association between open water dates and summer water temperatures.
 
+!["Figure"](/assets/portfolio-images/open_water_days.png")
 
 <figure> 
 <div style="text-align: center;"> 
