@@ -43,8 +43,8 @@ in the region the more the rate of homeownership decreased.(Figure 2). The relat
 
 <center> 
   <figure class="half"> 
-    <a href='/assets/img/HomeOwnership_figure1.png'><img src ='/assets/img/HomeOwnership_figure1.png'></a> 
-    <a href='/assets/img/HomeOwnership_figure2.png'><img src = '/assets/img/HomeOwnership_figure2.png'></a>
+    <a href="/images/HomeOwnership_figure1.png"><img src ="/images/HomeOwnership_figure1.png"></a> 
+    <a href="/imgages/HomeOwnership_figure2.png"><img src = "/images/HomeOwnership_figure2.png"></a>
     <figcaption> Figure 1. Homeownership rates and Income by region. (Left). Figure 2. Homeownership Rate and percentage black by region. (Right)<sub></sub></figcaption> 
   </figure>   
 </center> 
@@ -72,7 +72,7 @@ factors. Whether it is not readily available or we were unable to find it, futur
 
 
 <center>
-    <div class="btn-group">
+    <div class="btn-group", style="text-align: center;">
         <a href="https://github.com/HeribertoLopez/Home-Ownership-Project" class="btn btn-success"> Project Source Code</a>
     </div>
 </center>
