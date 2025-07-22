@@ -23,7 +23,7 @@ Our two datasets were obtained from Kaggle and included data collected thorough 
 
 <center>
     <figure class="half">
-        <a href='/assets/img/Screenshot 2021-07-22 105348.png'><img src='/assets/img/Screenshot 2021-07-22 105348.png'></a>
+        <a href='/images/Screenshot 2021-07-22 105348.png'><img src='/images/Screenshot 2021-07-22 105348.png'></a>
          </figure>
 </center>
 
