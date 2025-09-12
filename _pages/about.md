@@ -9,7 +9,7 @@ redirect_from:
 
 I am a recent graduate of the M.S. Statistics program at the University of Wisconsin - Madison. Prior to that, I obtained a B.A. in Economics from St. Olaf College. I am interested in Bayesian Statistics, specifically bayesian hierarchical modelling, causal inference and machine learning each with applications in public health, economics, and sports. 
 
-I am currently on the job market, my resume is available [here](https://cryptpad.fr/file/#/2/file/8TO+zYLQmcK9HoFjTwbgw8gF/). 
+I am currently on the job market, my resume is available [here](https://heribertolopez.github.io/files/HeribertoLopez-resume.pdf). 
 
 <head> 
   <style>
