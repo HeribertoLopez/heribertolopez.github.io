@@ -6,7 +6,7 @@ collection: portfolio
 ---
 
 ## Introduction 
-Alzheimer’s is a type of dementia that negatively impacts memory, thinking, and behavior. A dataset containing 2,159 alzheimer patients aged 60-90, along with their lifestyle and health measurements, is used to predict the diagnosis and stages of Alzheimer's disease. For predicting diagnosis, a Random Forest, Logistic Regression, and Gradient Descent/Boosting are used on a subset of features, with a Decision Tree using only impairment assessment scores. K-means Clustering is used to group the three stages of Alzheimer's. Results show the decision tree yields the highest accuracy of \\(\approx 91%\\), followed by Gradient Boosting of \\(\approx 85%\\) accuracy, while clustering did not show a large separation among clusters, suggesting large overlaps among patients in each cluster. 
+Alzheimer’s is a type of dementia that negatively impacts memory, thinking, and behavior. A dataset containing 2,159 alzheimer patients aged 60-90, along with their lifestyle and health measurements, is used to predict the diagnosis and stages of Alzheimer's disease. For predicting diagnosis, a Random Forest, Logistic Regression, and Gradient Descent/Boosting are used on a subset of features, with a Decision Tree using only impairment assessment scores. K-means Clustering is used to group the three stages of Alzheimer's. Results show the decision tree yields the highest accuracy of \\(\approx 91\% \\), followed by Gradient Boosting of \\(\approx 85\% \\) accuracy, while clustering did not show a large separation among clusters, suggesting large overlaps among patients in each cluster. 
 
 ## Variables 
 
@@ -91,17 +91,17 @@ K-means Clustering is used to identify the mild, moderate, and severe stages of 
 <figure> 
     <div style="text-align: center;">
     <a href="/images/3dplot.png"> <img src="/images/3dplot.png"></a>
-    <ficaption> Cluster results for K=3. Clusters are split at ADL \\(\approx 0.7\\) and MMSE \\(\approx 1\\). </ficaption>
+    <ficaption> Cluster results for K=3. Clusters are split at ADL approximately 0.7 and MMSE approximately 1. </ficaption>
     </div>
 </figure> 
 
 ## Results 
 
-Our analysis results demonstrate that Gradient Boosting yields the highest TPR, while Logistic Regression yields the lowest. The Decision Tree using cognitive and functional assessment scores reached \\(\approx 91%\\) accuracy. In identifying the three stages of Alzheimer's, the iterations converged to form three clusters, separated by average ADL and MMSE values. Notably, cluster 0 included patients with above-average ADL, suggesting greater independence and mild severity. In contrast, the other two clusters with both below-average ADL and at least one below-average test score indicate greater impairment. 
+Our analysis results demonstrate that Gradient Boosting yields the highest TPR, while Logistic Regression yields the lowest. The Decision Tree using cognitive and functional assessment scores reached \\(\approx 91\% \\) accuracy. In identifying the three stages of Alzheimer's, the iterations converged to form three clusters, separated by average ADL and MMSE values. Notably, cluster 0 included patients with above-average ADL, suggesting greater independence and mild severity. In contrast, the other two clusters with both below-average ADL and at least one below-average test score indicate greater impairment. 
 
 ## Conclusion 
 
-Predicting Alzheimer's diagnosis using demographic details, lifestyle factors, and medical history is feasible, with Random Forest achieving \\(\approx 83%\\) accuracy and Logistic Regression \\(\approx 77%\\). Gradient Descent/Boosting further improved model performance, resulting in \\(\approx 85%\\) accuracy alongside \\(\approx 93%\\) score, indicating a stronger differentiation between positive and negative cases. Classifying patients into different stages of cognitive impairment using cognitive and functional assessment scores proved effective, with a Decision Tree model achieving \\(\approx 91%\\) accuracy. Future work could integrate additional data sources such as genetics and deep learning techniques to enhance diagnostic accuracy and classification of Alzheimer's severity. 
+Predicting Alzheimer's diagnosis using demographic details, lifestyle factors, and medical history is feasible, with Random Forest achieving \\(\approx 83\% \\) accuracy and Logistic Regression \\(\approx 77 \% \\). Gradient Descent/Boosting further improved model performance, resulting in \\(\approx 85\% \\) accuracy alongside \\(\approx 93\% \\) score, indicating a stronger differentiation between positive and negative cases. Classifying patients into different stages of cognitive impairment using cognitive and functional assessment scores proved effective, with a Decision Tree model achieving \\(\approx 91\% \\) accuracy. Future work could integrate additional data sources such as genetics and deep learning techniques to enhance diagnostic accuracy and classification of Alzheimer's severity. 
 
 ## References
 *Alzheimer’s and Dementia.* Alzheimer’s Association, 2024. Available: [alz.org](www.alz.org/alzheimer_s_dementia).
