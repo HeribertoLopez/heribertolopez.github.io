@@ -57,13 +57,13 @@ To further evaluate the estimates for $p_i$ from our model, prior estimates were
 
 <figure> 
     <div style = "text-align: center;">
-    <a href="/images/uefa_post_samples_1.png"><img src="/images/uefa_post_samples_1.pmg" alt="Posterior samples."/></a>
+    <a href="/images/uefa_post_samples_1.png"><img src="/images/uefa_post_samples_1.png" alt="Posterior samples."/></a>
     <figcaption>Figure 1. Posterior probability estimates for each team advancing past he group stage for eight teams.</figcaption>
 </figure>
 
 <figure> 
     <div style = "text-align: center;">
-    <a href="/images/uefa_post_samples_2.png"><img src="/images/uefa_post_samples_2.pmg" alt="Posterior samples."/></a>
+    <a href="/images/uefa_post_samples_2.png"><img src="/images/uefa_post_samples_2.png" alt="Posterior samples."/></a>
     <figcaption>Figure 2. Posterior probability estimates for each team advancing past the group stage for remaining teams.</figcaption>
 </figure>
 
