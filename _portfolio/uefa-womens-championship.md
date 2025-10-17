@@ -55,9 +55,17 @@ To assess the fit and evaluate the simulations from our model, the effective sam
 
 To further evaluate the estimates for $p_i$ from our model, prior estimates were generated and Bayesian p-values were computed to compare the prior sample estimates for each team's $p_i$ to the actual advancement rate computed using each team's results in previous tournaments. From the Bayesian p-values, our model greatly underestimates and overestimates the advancement rate for teams that had an advancement rate of 1 as they got past the group stage in all of the previous five tournaments, and for teams that did not get past any group stage in any of the tournaments.  
 
-![Histogram for the estimated posterior probability for each team advancing past the group stage for eight teams](stat775_sp25_pset4_HERIBERTO_LOPEZ/post_samples1.png)
+<figure> 
+    <div style = "text-align: center;">
+    <a href="/images/uefa_post_samples_1.png"><img src="/images/uefa_post_samples_1.pmg" alt="Posterior samples."/></a>
+    <figcaption>Figure 1. Posterior probability estimates for each team advancing past he group stage for eight teams.</figcaption>
+</figure>
 
-![Histogram for the estimated posterior probability for each team advancing past the group stage for the remaining eight teams](stat775_sp25_pset4_HERIBERTO_LOPEZ/post_samples2.png)
+<figure> 
+    <div style = "text-align: center;">
+    <a href="/images/uefa_post_samples_2.png"><img src="/images/uefa_post_samples_2.pmg" alt="Posterior samples."/></a>
+    <figcaption>Figure 2. Posterior probability estimates for each team advancing past the group stage for remaining teams.</figcaption>
+</figure>
 
 Posterior estimates were obtained using our observed data.  The above figures display the posterior samples drawn from our model. Notably, the samples show that our estimate for the true probability of advancing past the group stage appears higher for teams with a lower ranking, and the probability decreases for higher-ranking teams, which is intuitively reasonable, as we assumed lower-ranked teams had a higher log odds.  A point estimate and posterior credible interval for each team were computed. Table 1 shows the computed posterior point estimate and 95% confidence interval for the probability of advancing past the group stage. Under our assumed joint distribution, the estimated probability of advancing past the group stage is the highest for Spain and the lowest for Wales, 0.77 and 0.06, respectively.  
 
@@ -96,5 +104,5 @@ Johnson, Alicia, Miles Ott, and Mine Dogucu. *Bayes Rules! An Introduction to Ap
 
 Baumer, Benjamin, et al. *Bayesian Hierarchical Modeling*. [https://bayesball.github.io/BOOK/bayesian-hierarchical-modeling.html](https://bayesball.github.io/BOOK/bayesian-hierarchical-modeling.html).
 
-STAT 775, lecture notes.
+University of Wisconsin - Madison STAT 775, lecture notes.
 
