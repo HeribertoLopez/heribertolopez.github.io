@@ -57,14 +57,16 @@ To further evaluate the estimates for $p_i$ from our model, prior estimates were
 
 <figure> 
     <div style = "text-align: center;">
-    <a href="/images/uefa_post_samples_1.png"><img src="/images/uefa_post_samples_1.png" alt="Posterior samples."/></a>
-    <figcaption>Figure 1. Posterior probability estimates for each team advancing past he group stage for eight teams.</figcaption>
+        <a href="/images/uefa_post_samples_1.png"><img src="/images/uefa_post_samples_1.png" alt="Posterior samples."/></a>
+        <figcaption>Figure 1. Posterior probability estimates for each team advancing past he group stage for eight teams.</figcaption>
+    </div>
 </figure>
 
 <figure> 
     <div style = "text-align: center;">
-    <a href="/images/uefa_post_samples_2.png"><img src="/images/uefa_post_samples_2.png" alt="Posterior samples."/></a>
-    <figcaption>Figure 2. Posterior probability estimates for each team advancing past the group stage for remaining teams.</figcaption>
+        <a href="/images/uefa_post_samples_2.png"><img src="/images/uefa_post_samples_2.png" alt="Posterior samples."/></a>
+        <figcaption>Figure 2. Posterior probability estimates for each team advancing past the group stage for remaining teams.</figcaption>
+    </div>
 </figure>
 
 Posterior estimates were obtained using our observed data.  The above figures display the posterior samples drawn from our model. Notably, the samples show that our estimate for the true probability of advancing past the group stage appears higher for teams with a lower ranking, and the probability decreases for higher-ranking teams, which is intuitively reasonable, as we assumed lower-ranked teams had a higher log odds.  A point estimate and posterior credible interval for each team were computed. Table 1 shows the computed posterior point estimate and 95% confidence interval for the probability of advancing past the group stage. Under our assumed joint distribution, the estimated probability of advancing past the group stage is the highest for Spain and the lowest for Wales, 0.77 and 0.06, respectively.  
