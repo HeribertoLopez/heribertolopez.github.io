@@ -47,9 +47,7 @@ I am currently on the job market, my resume is available [here](https://heribert
 </head> 
 
 <body> 
-  <!---
-Teaching
--->
+  <!-- Teaching -->
 <h1>Teaching Experience</h1>
 <p>Teaching Assistant at UW–Madison</p>
   
@@ -78,4 +76,4 @@ Teaching
 
 More About me 
 ===== 
-Originally, from Minneapolis, MN. Outside of work, I enjoy cooking, baking, camping/backpacking, biking, and engaging in sports - mainly soccer and basketball. 
+I am originally, from Minneapolis, MN. Outside of my work, I enjoy cooking, baking, backpacking, biking, and engaging in sports - mainly soccer and basketball. I am an avid fan of the MN timberwolves. I also enjoy helping my community, and I currently volunteer as a tutor at the [Northstar Tutoring program](https://www.northstartutoring.org/) and occasionally at the [AFAC](https://afac.org/). 
