@@ -34,26 +34,26 @@ Table 1. shows the actual rate of advancing past the group stage is higher for s
 
 ## Probabilistic Model
 
-To estimate the probability that each team advances past the group stage and into the knockout stage by treating each of the previous tournaments as "cases", and "advancements" past the group stage as "successes", we assume a binomial sampling model for the data. For our model, we let \\($Y_i$\\) denote the number of group stage tournament advances. We let \\($Y_i$\\) follow a binomial distribution, where \\($n_i$\\) denotes the number of tournaments, and \\($p_i$\\) denotes the advancement rate for team \\($i$\\).  
+To estimate the probability that each team advances past the group stage and into the knockout stage by treating each of the previous tournaments as "cases", and "advancements" past the group stage as "successes", we assume a binomial sampling model for the data. For our model, we let \\(Y_i\\) denote the number of group stage tournament advances. We let \\(Y_i\\) follow a binomial distribution, where \\(n_i\\) denotes the number of tournaments, and \\(p_i\\) denotes the advancement rate for team \\(i\\).  
 
-\\($$Y_i \sim \text{binomial}(n_i, p_i)$$\\)
+$$Y_i \sim \text{binomial}(n_i, p_i)$$
 
-As the true probability of advancing depends on several factors, including how well a team is performing, a logit link function is used to model \\($p_i$\\) based on its current FIFA Women's World ranking. In particular, I incorporate the following logit link to link the current world ranking to the probability of advancing. 
+As the true probability of advancing depends on several factors, including how well a team is performing, a logit link function is used to model \\(p_i\\) based on its current FIFA Women's World ranking. In particular, I incorporate the following logit link to link the current world ranking to the probability of advancing. 
 
-\\($$\text{logit}(p_i) = \beta_0 + \beta_1 \times \text{current ranking}_i$$\\)
+$$\text{logit}(p_i) = \beta_0 + \beta_1 \times \text{current ranking}_i$$
 
-In the model for \\($p_i$\\), \\($\beta_1$\\) represents a baseline log-odds of a team advancing for a current ranking of 0, and \\($\beta_1$\\) represents the estimated effect of the current rankings on the log-odds of advancing to the knockout stage. To incorporate our beliefs for \\($\beta_0$\\), I placed a normal prior centered at 0, with a small variance of 0.5 on the belief that each team in the tournament has at least a 50% chance of advancing. 
+In the model for \\(p_i\\), \\(\beta_1\\) represents a baseline log-odds of a team advancing for a current ranking of 0, and \\(\beta_1\\) represents the estimated effect of the current rankings on the log-odds of advancing to the knockout stage. To incorporate our beliefs for \\(\beta_0\\), I placed a normal prior centered at 0, with a small variance of 0.5 on the belief that each team in the tournament has at least a 50% chance of advancing. 
 
-\\($$\beta_0 \sim \text{Normal}(0, 1)$$\\)
-\\($$\beta_1 \sim \text{Normal}(-1, 5)$$\\)
+\\(\beta_0 \sim \text{Normal}(0, 1)\\)
+\\(\beta_1 \sim \text{Normal}(-1, 5)\\)
 
-For \\($\beta_1$\\), in the data, higher ranks indicate lower team performance, so lower ranks should have higher log odds of advancing. On this notion, I placed a normal prior centered at -1, and a moderately high variance of 5, to allow lower-ranked teams to have higher odds, but also allow for positive and negative values. Using the specified model above, I defined the model in rstan, and generated posterior samples for \\($p_i$\\) using 4 chains and 10,000 iterations, and by taking the inverse of the logit function using posterior estimated coefficient values. 
+For \\(\beta_1\\), in the data, higher ranks indicate lower team performance, so lower ranks should have higher log odds of advancing. On this notion, I placed a normal prior centered at -1, and a moderately high variance of 5, to allow lower-ranked teams to have higher odds, but also allow for positive and negative values. Using the specified model above, I defined the model in rstan, and generated posterior samples for \\(p_i\\) using 4 chains and 10,000 iterations, and by taking the inverse of the logit function using posterior estimated coefficient values. 
 
 ## Evaluation and Results 
 
-To assess the fit and evaluate the simulations from our model, the effective sample size and the R hat values for each team's posterior samples of \\($p_i$\\), the probability of getting past the group stage, were examined. From our model, the effective sample size and the R hat for our samples for each team suggest signs of MCMC mixing and convergence. In particular, for each posterior estimate for \\($p_i$\\), the R hat value was below 1.000 for all the teams, and the effective sample size was also reasonable and ranged from 6,500 - 21,834, indicating a large number of independent samples. 
+To assess the fit and evaluate the simulations from our model, the effective sample size and the R hat values for each team's posterior samples of \\(p_i\\), the probability of getting past the group stage, were examined. From our model, the effective sample size and the R hat for our samples for each team suggest signs of MCMC mixing and convergence. In particular, for each posterior estimate for \\(p_i\\), the R hat value was below 1.000 for all the teams, and the effective sample size was also reasonable and ranged from 6,500 - 21,834, indicating a large number of independent samples. 
 
-To further evaluate the estimates for \\($p_i$\\) from our model, prior estimates were generated and Bayesian p-values were computed to compare the prior sample estimates for each team's \\($p_i$\\) to the actual advancement rate computed using each team's results in previous tournaments. From the Bayesian p-values, our model greatly underestimates and overestimates the advancement rate for teams that had an advancement rate of 1 as they got past the group stage in all of the previous five tournaments, and for teams that did not get past any group stage in any of the tournaments.  
+To further evaluate the estimates for \\(p_i\\) from our model, prior estimates were generated and Bayesian p-values were computed to compare the prior sample estimates for each team's \\(p_i\\) to the actual advancement rate computed using each team's results in previous tournaments. From the Bayesian p-values, our model greatly underestimates and overestimates the advancement rate for teams that had an advancement rate of 1 as they got past the group stage in all of the previous five tournaments, and for teams that did not get past any group stage in any of the tournaments.  
 
 <figure> 
     <div style = "text-align: center;">
